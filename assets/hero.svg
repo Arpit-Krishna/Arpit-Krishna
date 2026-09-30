@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-label="Terminal: whoami — Arpit Krishna, Backend Software Engineer at Cars24">
+  <defs>
+    <radialGradient id="glow" cx="85%" cy="10%" r="70%">
+      <stop offset="0" stop-color="#8957e5" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#1f6feb" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6edf3"/>
+      <stop offset="0.55" stop-color="#79c0ff"/>
+      <stop offset="1" stop-color="#d2a8ff"/>
+    </linearGradient>
+    <clipPath id="t1"><rect x="66" y="62" height="26" width="0"><animate attributeName="width" from="0" to="80" begin="0.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t2"><rect x="66" y="176" height="26" width="0"><animate attributeName="width" from="0" to="130" begin="2.1s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t3"><rect x="66" y="246" height="26" width="0"><animate attributeName="width" from="0" to="330" begin="3.7s" dur="1.2s" fill="freeze"/></rect></clipPath>
+    <style>
+      .m{font-family:'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+      .p{fill:#3fb950;font-size:15px}
+      .d{fill:#58a6ff;font-size:15px}
+      .c{fill:#e6edf3;font-size:15px}
+      .mu{fill:#8b949e}
+      .k{fill:#79c0ff}.s{fill:#a5d6ff}.o{fill:#ffa657}.pu{fill:#d2a8ff}.g{fill:#7ee787}.r{fill:#ff7b72}
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="899" height="359" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="899" height="359" rx="14" fill="url(#glow)"/>
+  <path d="M14.5 0.5h871a14 14 0 0 1 14 14V38H0.5V14.5a14 14 0 0 1 14-14z" fill="#161b22" stroke="#30363d"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f57"/><circle cx="44" cy="19" r="6" fill="#febc2e"/><circle cx="64" cy="19" r="6" fill="#28c840"/>
+  <text x="450" y="24" text-anchor="middle" class="m mu" font-size="13">arpit@cars24: ~ — zsh</text>
+
+  <!-- whoami -->
+  <g class="m" opacity="0"><set attributeName="opacity" to="1" begin="0.2s" fill="freeze"/>
+    <text x="32" y="80"><tspan class="d">~</tspan><tspan class="p" dx="9">$</tspan></text>
+    <text x="66" y="80" class="c" clip-path="url(#t1)">whoami</text>
+  </g>
+  <g class="m" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.4s" fill="freeze"/>
+    <text x="32" y="122" font-size="32" font-weight="700" fill="url(#name)">Arpit Krishna</text>
+    <text x="32" y="150" font-size="15" class="mu">Backend Software Engineer <tspan class="o">@ Cars24</tspan> · Gurugram, India</text>
+  </g>
+
+  <!-- focus -->
+  <g class="m" opacity="0"><set attributeName="opacity" to="1" begin="1.9s" fill="freeze"/>
+    <text x="32" y="194"><tspan class="d">~</tspan><tspan class="p" dx="9">$</tspan></text>
+    <text x="66" y="194" class="c" clip-path="url(#t2)">cat focus.txt</text>
+  </g>
+  <g class="m" opacity="0" font-size="15"><animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.4s" fill="freeze"/>
+    <text x="32" y="222"><tspan class="k">backend infra</tspan><tspan class="mu">  ·  </tspan><tspan class="pu">data pipelines</tspan><tspan class="mu">  ·  </tspan><tspan class="g">analytics</tspan><tspan class="mu">  ·  </tspan><tspan class="o">Go + Java microservices</tspan></text>
+  </g>
+
+  <!-- health -->
+  <g class="m" opacity="0"><set attributeName="opacity" to="1" begin="3.5s" fill="freeze"/>
+    <text x="32" y="264"><tspan class="d">~</tspan><tspan class="p" dx="9">$</tspan></text>
+    <text x="66" y="264" class="c" clip-path="url(#t3)">curl -s localhost:8080/arpit/health</text>
+  </g>
+  <g class="m" opacity="0" font-size="14"><animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.4s" fill="freeze"/>
+    <text x="32" y="292"><tspan class="mu">{</tspan><tspan class="k">"status"</tspan><tspan class="mu">:</tspan><tspan class="g">"UP"</tspan><tspan class="mu">, </tspan><tspan class="k">"based_in"</tspan><tspan class="mu">:</tspan><tspan class="s">"Gurugram"</tspan><tspan class="mu">, </tspan><tspan class="k">"coffee"</tspan><tspan class="mu">:</tspan><tspan class="s">"sufficient"</tspan><tspan class="mu">, </tspan><tspan class="k">"open_to"</tspan><tspan class="mu">:</tspan><tspan class="s">"good problems"</tspan><tspan class="mu">}</tspan></text>
+  </g>
+
+  <!-- idle prompt -->
+  <g class="m" opacity="0"><set attributeName="opacity" to="1" begin="5.5s" fill="freeze"/>
+    <text x="32" y="334"><tspan class="d">~</tspan><tspan class="p" dx="9">$</tspan></text>
+    <rect x="67" y="320" width="9" height="18" fill="#e6edf3"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
